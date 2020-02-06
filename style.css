@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #ffc578 0%, #fb9d23 100%);
+  font-family: sans-serif;
+  color: white;
+}
+
+.iconContainer,
+.weather {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.timezone {
+  font-size: 3rem;
+}
+
+.weather {
+  flex-direction: column;
+}
+
+.degree-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wind-section {
+  display: flex;
+  align-items: center;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+}
+
+.Img {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  margin: 10px;
+}
+
+.deg-symbol {
+  margin: 4px;
+  font-size: 1.8rem;
+}
+
+.temperature-degree {
+  font-size: 2.3rem;
+}
+.wind-speed,
+.temperature-description {
+  font-size: 1.8rem;
+}
+
+.temperature-description {
+  font-size: 1.4rem;
+}
+
+.mph {
+  margin: 10px;
+  font-size: 1.5rem;
+}
